@@ -1,8 +1,34 @@
-#bars {
-  color: #fdfdfd;
-  background-color: #45b39d;
-  float: left;
-  font-size: 50px;
-  line-height: 120px;
-  padding-left: 25px;
+
+
+ @media screen and (max-width: 1080px){
+  body{
+    width: 100%;
+  }
+
+  #bars {
+    display: initial;
+    color: #fdfdfd;
+    background-color: #45b39d;
+    float: left;
+    font-size: 50px;
+    line-height: 120px;
+    padding-left: 25px;
+    
+   }
  }
+
+ @media screen and (max-width: 900px){
+  body{
+    width: 100%;
+  }
+
+  #bars {
+    color: #fdfdfd;
+    background-color: #45b39d;
+    float: left;
+    font-size: 50px;
+    line-height: 120px;
+    padding-left: 25px;
+    display: initial;
+   }
+}

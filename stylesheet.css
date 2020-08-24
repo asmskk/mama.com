@@ -5,30 +5,29 @@
   list-style: none;
   text-decoration: none;
   box-sizing: border-box;
-  
-  background: #fdfefe;
 }
 body{
   width: 100%;
   background-image: url(./mamaImages/background.jpg);
   background-size: cover;
+  background: white;
+  color: lightslategray;
 }
+
 .header-container{
   width: 100%;
   margin: 0 auto;
-  background-color: #45b39d;
+  background-color: rgb(69, 179, 157);
   text-align: center;
   height: 120px;
-
 }
-
 
 #bars{
   display: none;
 }
 
 .mama {
-  background-color: #45b39d;
+  background-color: rgb(69, 179, 157);
   width: 100%;
   text-align: center;
   color: #fdfdfd;
@@ -36,152 +35,154 @@ body{
   font-weight: 500;
   line-height: 120px;
 }
+
 .icons {
   width: 100%;
   height: 45px;
   font-size: 20px;
-  
 }
 
 .icon-container{
-    width: 100%;
-    margin: auto;
-    padding-top: 10px;
-    
+  width: 100%;
+  padding-top: 10px;
+}
+
+.icon-area{
+  text-align: right;
+  margin-right: 20px;
 }
   
 .icon-area li {
-  padding-right: 1.8vh;
-  float: right;
-  margin-right: 10px;
+  display: inline-block;
+  transition: transform 0.4s;
+  margin: 10px 15px;
   color: lightslategray;
   opacity: 0.8;
 }
 
-.fa:hover {
+.icon-area li i{
+  padding: 5px;
+  display: inline-block;
+  transform: scale(1.2);
+}
+
+.icon-area li i:hover {
   opacity: 1;
-  animation: ease;
   cursor: pointer;
-  
+  transform: scale(1.5);
 }
+
 .fa-user:hover{
-  opacity: 1;
   color: cornflowerblue;
-  font-size: 35px;
-  
 }
+
 .fa-shopping-cart:hover{
-  opacity: 1;
   color: rgb(245, 190, 11);
-  font-size: 35px;
 }
+
 .fa-heart:hover{
-  opacity: 1;
   color: palevioletred;
-  font-size: 35px;
 }
 
 .fa-search:hover{
-  opacity: 1;
   color: rgb(44, 42, 42);
-  font-size: 35px;
 }
+
 .middle-wrapper {
-  height: 900px;
-  max-width: 65%;
-  margin: auto;
+  height: 100vh;
+  width: 60%;
+  margin: 0 auto;
   text-align: center;
 }
 
-.menu-bar a {
-  display: block;
-  color: lightslategrey;
+.menu ul{
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
   font-size: large;
-  float: left;
-  margin: 1.5vh;
-  font-weight: bolder;
-  
+  margin-top: 2.6vh;
+}
+
+.menu ul li a {
+  color: lightslategrey;
 }
 
 .menu a:hover {
   color: #45b39d;
+  transition: 0.3s;
 }
 
-.clear {
-  clear: left;
-}
-
-.imges {
-  height: 150px;
-  width: 100%;
-}
-.palm {
-  height: 400px;
-  width: 35%;
-}
 footer {
-  height: 400px;
+  height: 30vh;
   width: 100%;
+  background-color: #f2f7b9d2;
 }
-.footer-container{
-  height: 350px;
-}
-.sns {
-  color: lightslategray;
+
+.sns { 
   width: 100%;
   margin: 0 auto;
-  border-top: 1px solid lightgray;
   text-align: center;
 }
+
 .sns ul {
   text-align: center;
   width: 100%;
   margin: 0 auto;
 }
-.sns li{
-  display: inline;
-  list-style-type: none;
+
+.sns ul li{
+  display: inline-block;
   text-align: center;
+  margin: 35px;
+  transform: scale(2.8);
 }
+
 .sns li a {
-  float: left;
-  font-size: 40px;
-  text-align: center;
-  padding-right: 35px;
-  margin-top: 15px;
-  color: lightslategray;
+  color: rgba(119, 136, 153, 0.678);
 }
-.insta {
+
+.sns li a:hover {
+  transition: 0.5s;
+}
+
+.insta:hover{
+  background: #d6249f;
+  background-clip: text;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+}
+
+.twitter:hover{
+  color: rgb(29, 161, 242);
+}
+
+.facebook:hover{
+  color: rgb(66, 103, 178);
 }
 
 .footer-contents {
-  width: 100%;
+  width: 80%;
   margin: 0 auto;
-  padding: 0 100px;
 }
+
 .footer-contents li {
   margin: 30px;
 }
+
 .footer-contents li a {
   color: lightslategray;
-  font-size: medium;
+  font-weight: 600;
 }
 
-.language {
-  color: lightslategray;
-  
-}
-
-.language p {
-  border-top: 1px solid lightgray;
-}
-.language a {
-  float: left;
-  color: lightslategray;
-  margin-bottom: 20px;
-  padding: 3px;
-  border: lightslategray solid 1px;
-}
-.language a:hover {
+.footer-contents li a:hover{
   color: #45b39d;
+  transition: 0.3s;
+}
+
+.copyright{
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 7vh;
 }
