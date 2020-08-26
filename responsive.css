@@ -1,34 +1,37 @@
 
-
- @media screen and (max-width: 1080px){
+ @media screen and (max-width: 780px){
   body{
+    height: 1500px;
     width: 100%;
   }
 
-  #bars {
-    display: initial;
-    color: #fdfdfd;
-    background-color: #45b39d;
-    float: left;
-    font-size: 50px;
-    line-height: 120px;
-    padding-left: 25px;
-    
-   }
- }
+.icons{
+  background-color: lightyellow;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
 
- @media screen and (max-width: 900px){
-  body{
-    width: 100%;
-  }
+.icons ul{
+  display: flex;
+}
 
-  #bars {
-    color: #fdfdfd;
-    background-color: #45b39d;
-    float: left;
-    font-size: 50px;
-    line-height: 120px;
-    padding-left: 25px;
-    display: initial;
-   }
+.icons ul li{
+  flex: 1;
+}
+
+.menu{
+  width: 100%;
+  height: 45px;
+}
+
+.menu ul{
+  margin: 20px;
+}
+
+.menu ul li{
+  padding-bottom: 20px;
+}
+
+
 }
