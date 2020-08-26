@@ -23,12 +23,38 @@
 
 .menu{
   width: 100%;
-  height: 65px;
+  height: 60px;
+  overflow: auto;
+  white-space: nowrap;
+}
+.menu ul{
+  width: 100%;
+  margin: initial;
 }
 
+.menu ul li{
+  /* margin: 20px; */
 
+}
 
+.menu ul li a{
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bolder;
+  margin: 20px;
+}
 
+.about{
+  margin-right: 60px;
+}
 
+main{
+  height: 100vh;
+}
+
+footer{
+  height: 31%;
+}
 
 }
