@@ -10,6 +10,7 @@
   width: 100%;
   position: fixed;
   bottom: 0;
+  padding-bottom: 20px;
 }
 
 .icons ul{
@@ -22,16 +23,12 @@
 
 .menu{
   width: 100%;
-  height: 45px;
+  height: 65px;
 }
 
-.menu ul{
-  margin: 20px;
-}
 
-.menu ul li{
-  padding-bottom: 20px;
-}
+
+
 
 
 }
