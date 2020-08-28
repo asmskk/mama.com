@@ -1,51 +1,101 @@
+@media screen and(min-width: 600px){
 
-@media screen and (max-width: 480px){
+}
+
+@media screen and (min-width: 1000px){
+
   body{
-    height: 1500px;
     width: 100%;
   }
-
-.icons{
-  background-color: lightyellow;
-  width: 100%;
-  position: fixed;
-  bottom: 0;
-  padding-bottom: 20px;
-}
-
-.icons ul{
-  display: flex;
-}
-
-.icons ul li{
-  flex: 1;
-}
-
-.menu{
-  width: 100%;
-  height: 70px;
-  overflow: auto;
-  white-space: nowrap;
-}
-.menu ul{
-  width: 100%;
-  margin: initial;
-}
-
-.menu ul li a{
-  display: inline-block;
-  text-align: center;
-  text-decoration: none;
-  font-weight: bolder;
-  margin: 20px;
-}
-
-main{
-  height: 100vh;
-}
-
-footer{
-  height: 31%;
-}
+  
+  header{
+    height: 80px;
+  }
+  
+  .mama {
+    width: 100%;
+    text-align: center;
+    color: #fdfdfd;
+    font-size: 68px;
+    font-weight: 500;
+    line-height: 80px;
+  }
+  
+  .icons {
+    width: 100%;
+    height: 72px;
+    font-size: 20px;
+    text-align: right;
+  }
+    
+  .icon-area li {
+    display: inline-block;
+    transition: transform 0.4s;
+    margin: 10px 15px;
+    opacity: 0.8;
+  }
+  
+  .icon-area li i{
+    padding: 5px;
+    display: inline-block;
+    transform: scale(1.2);
+  }
+  
+  .icon-area li i:hover {
+    opacity: 1;
+    cursor: pointer;
+    transform: scale(1.5);
+  }
+  
+  .fa-user:hover{
+    color: cornflowerblue;
+  }
+  
+  .fa-shopping-cart:hover{
+    color: rgb(245, 190, 11);
+  }
+  
+  .fa-heart:hover{
+    color: palevioletred;
+  }
+  
+  .fa-search:hover{
+    color: rgb(44, 42, 42);
+  }
+  
+  .menu {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .menu a:hover {
+    color: #45b39d;
+    transition: 0.3s;
+  }
+  
+  footer {
+    height: 450px;
+    width: 100%;
+    background-color: #f2f7b9d2;
+  }
+  
+  .sns { 
+    width: 100%;
+  }
+  
+  .sns ul {
+    text-align: center;
+  }
+  
+  .sns ul li{
+    display: inline-block;
+    margin: 35px;
+    transform: scale(1.1);
+  }
+  
+  .sns li a:hover {
+    transition: 0.2s;
+  }
 
 }

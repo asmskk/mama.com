@@ -6,137 +6,122 @@
   text-decoration: none;
   box-sizing: border-box;
 }
+
 body{
   width: 100%;
-  background-image: url(./mamaImages/background.jpg);
-  background-size: cover;
   background: white;
   color: lightslategray;
 }
 
-.header-container{
-  width: 100%;
-  margin: 0 auto;
-  background-color: rgb(69, 179, 157);
+header{
+  background-color: rgba(69, 179, 157, 0.753);
   text-align: center;
-  height: 120px;
+  height: 50px;
 }
 
-.mama {
-  background-color: rgb(69, 179, 157);
-  width: 100%;
-  text-align: center;
+.mama{
+  line-height: 50px;
+  font-size: 30px;
   color: #fdfdfd;
-  font-size: 68px;
-  font-weight: 500;
-  line-height: 120px;
 }
 
-.icons {
+.icons{
+  background-color: lightyellow;
   width: 100%;
-  height: 72px;
+  height: 62px;
   font-size: 20px;
-  text-align: right;
+  position: fixed;
+  bottom: 0;
+  line-height: 40px;
+  text-align: center;
 }
 
-.icon-area{
-  margin-right: 20px;
-}
-  
-.icon-area li {
-  display: inline-block;
-  transition: transform 0.4s;
-  margin: 10px 15px;
-  color: lightslategray;
-  opacity: 0.8;
+.icons ul{
+  display: flex;
 }
 
-.icon-area li i{
-  padding: 5px;
-  display: inline-block;
-  transform: scale(1.2);
+.icons ul li{
+  flex: 1;
 }
 
-.icon-area li i:hover {
-  opacity: 1;
-  cursor: pointer;
-  transform: scale(1.5);
-}
-
-.fa-user:hover{
+.fa-user:active{
   color: cornflowerblue;
 }
 
-.fa-shopping-cart:hover{
+.fa-shopping-cart:active{
   color: rgb(245, 190, 11);
 }
 
-.fa-heart:hover{
+.fa-heart:active{
   color: palevioletred;
 }
 
-.fa-search:hover{
+.fa-search:active{
   color: rgb(44, 42, 42);
 }
 
-.menu {
-  height: 100vh;
-  width: 60%;
-  margin: 0 auto;
-  text-align: center;
-}
-
-.menu ul{
-  display: flex;
-  justify-content: space-between;
+.menu{
+  width: 100%;
+  height: 50px;
+  overflow: auto;
+  white-space: nowrap;
   font-weight: bold;
   font-size: large;
-  margin-top: 2.6vh;
 }
-
-.menu ul li a {
-  color: lightslategrey;
-}
-
-.menu a:hover {
-  color: #45b39d;
-  transition: 0.3s;
-}
-
-footer {
-  height: 30vh;
+.menu ul{
   width: 100%;
-  background-color: #f2f7b9d2;
+  display: flex;
+  justify-content: space-between;
+  line-height: 50px;
+}
+
+.menu ul li a{
+  color: lightslategrey;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bolder;
+  margin: 0 20px;
+}
+
+.menu a:active {
+  color: #45b39d;
+}
+
+main{
+  height: 100vh;
+  background-color: rgb(243, 243, 243);
+}
+
+footer{
+  width: 100%;
+  height: 400px;
 }
 
 .sns { 
   width: 100%;
-  margin: 0 auto;
-  text-align: center;
 }
 
 .sns ul {
   text-align: center;
   width: 100%;
-  margin: 0 auto;
 }
 
 .sns ul li{
   display: inline-block;
-  text-align: center;
-  margin: 35px;
-  transform: scale(2.8);
+  margin: 15px;
+  font-size: 40px;
 }
 
 .sns li a {
   color: rgba(119, 136, 153, 0.678);
 }
 
-.sns li a:hover {
+.sns li a:active {
   transition: 0.2s;
 }
 
-.insta:hover{
+.insta:active{
   background: #d6249f;
   background-clip: text;
   background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%); 
@@ -144,36 +129,39 @@ footer {
   -webkit-text-fill-color: transparent; 
 }
 
-.twitter:hover{
+.twitter:active{
   color: rgb(29, 161, 242);
 }
 
-.facebook:hover{
+.facebook:active{
   color: rgb(66, 103, 178);
 }
 
-.footer-contents {
-  width: 80%;
-  margin: 0 auto;
+.footer-contents{
+  width: 100%;
 }
 
-.footer-contents li {
-  margin: 30px;
+.footer-contents ul{
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.footer-contents li a {
+.footer-contents ul li {
+  display: inline-block;
+  padding: 20px;
+}
+
+.footer-contents ul li a {
   color: lightslategray;
   font-weight: 600;
 }
 
-.footer-contents li a:hover{
+.footer-contents ul li a:active{
   color: #45b39d;
-  transition: 0.3s;
 }
 
 .copyright{
   text-align: center;
   width: 100%;
   margin: 0 auto;
-  margin-top: 7vh;
 }
