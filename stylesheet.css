@@ -158,7 +158,7 @@ footer{
   display: inline-block;
   box-sizing: border-box;
   padding: 15px;
-  text-align: center;
+  text-align: left;
 }
 
 .footer-contents ul li a:hover{
