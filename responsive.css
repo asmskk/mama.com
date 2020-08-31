@@ -14,9 +14,8 @@
   }
   
   .header-container{
-    display: inline-block;
-    margin: 0 auto;
-    position: relative;
+    margin-left: 15px;
+    float: left;
   }
 
   .mama {
@@ -34,16 +33,16 @@
   .icons{
     font-size: 17px;
     color: #fdfdfd;
-    display: inline-block;
+    display: block;
     line-height: 80px;
-    margin-left: 160px;
+    float: right;
   }
     
 
   .icons ul li {
     transition: transform 0.4s;
     flex: none;
-    padding-right: 24px;
+    padding-right: 30px;
   }
   
   .icons ul li i{
