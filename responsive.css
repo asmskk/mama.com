@@ -16,6 +16,7 @@
   .header-container{
     display: inline-block;
     margin: 0 auto;
+    position: relative;
   }
 
   .mama {
@@ -34,8 +35,11 @@
     font-size: 17px;
     color: #fdfdfd;
     display: inline-block;
+    line-height: 80px;
+    margin-left: 160px;
   }
     
+
   .icons ul li {
     transition: transform 0.4s;
     flex: none;
@@ -82,7 +86,7 @@
   }
   
   footer {
-    height: 350px;
+    height: 400px;
     width: 100%;
     background-color: #f2f7b9d2;
   }
@@ -121,9 +125,26 @@
     color: rgb(66, 103, 178);
   }
 
+.footer-contents{
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.contents{
+  margin: 40px;
+}
+
   .copyright{
     bottom: 0;
     padding-bottom: 8px;
   }
   
+}
+
+@media screen and (min-width: 1500px){
+  body{
+    max-width: 63%;
+    margin: 0 auto;
+  }
 }

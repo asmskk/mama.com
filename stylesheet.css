@@ -45,19 +45,19 @@ header{
   flex: 1;
 }
 
-.fa-user:active{
+.fa-user:hover{
   color: cornflowerblue;
 }
 
-.fa-shopping-cart:active{
+.fa-shopping-cart:hover{
   color: rgb(245, 190, 11);
 }
 
-.fa-heart:active{
+.fa-heart:hover{
   color: palevioletred;
 }
 
-.fa-search:active{
+.fa-search:hover{
   color: rgb(44, 42, 42);
 }
 
@@ -82,10 +82,11 @@ header{
   text-align: center;
   text-decoration: none;
   font-weight: bolder;
-  margin: 0 15px;
+  padding: 0 15px;
 }
 
-.menu a:active {
+.active:hover {
+  background-color: rgb(243, 243, 243);
   color: #45b39d;
 }
 
@@ -119,11 +120,11 @@ footer{
   color: rgba(119, 136, 153, 0.678);
 }
 
-.sns li a:active {
+.sns li a:hover {
   transition: 0.2s;
 }
 
-.insta:active{
+.insta:hover{
   background: #d6249f;
   background-clip: text;
   background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%); 
@@ -131,11 +132,11 @@ footer{
   -webkit-text-fill-color: transparent; 
 }
 
-.twitter:active{
+.twitter:hover{
   color: rgb(29, 161, 242);
 }
 
-.facebook:active{
+.facebook:hover{
   color: rgb(66, 103, 178);
 }
 
@@ -160,7 +161,7 @@ footer{
   text-align: center;
 }
 
-.footer-contents ul li a:active{
+.footer-contents ul li a:hover{
   color: #45b39d;
 }
 
