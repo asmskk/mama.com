@@ -1,8 +1,14 @@
-@media screen and(min-width: 600px){
-
+@media screen and(min-width: 800px){
+body{
+  width: 100%;
 }
 
-@media screen and (min-width: 800px){
+.menu{
+  width: 80%;
+}
+}
+
+@media screen and (min-width: 1000px){
 
   body{
     height: 100%;
@@ -14,7 +20,7 @@
   }
   
   .header-container{
-    margin-left: 15px;
+    margin-left: 40px;
     float: left;
   }
 
@@ -74,11 +80,15 @@
   }
   
   .menu {
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
     text-align: center;
   }
   
+  .menu ul li a{
+    padding: 0 34px;
+  }
+
   .menu a:hover {
     color: #45b39d;
     transition: 0.3s;
