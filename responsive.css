@@ -2,9 +2,10 @@
 
 }
 
-@media screen and (min-width: 1000px){
+@media screen and (min-width: 800px){
 
   body{
+    height: 100%;
     width: 100%;
   }
   
@@ -12,36 +13,42 @@
     height: 80px;
   }
   
+  .header-container{
+    display: inline-block;
+    margin: 0 auto;
+  }
+
   .mama {
-    width: 100%;
     text-align: center;
     color: #fdfdfd;
-    font-size: 68px;
+    font-size: 50px;
     font-weight: 500;
     line-height: 80px;
   }
   
-  .icons {
-    width: 100%;
-    height: 72px;
-    font-size: 20px;
-    text-align: right;
+  .icons{
+    all: unset;
+  }
+
+  .icons{
+    font-size: 17px;
+    color: #fdfdfd;
+    display: inline-block;
   }
     
-  .icon-area li {
-    display: inline-block;
+  .icons ul li {
     transition: transform 0.4s;
-    margin: 10px 15px;
-    opacity: 0.8;
+    flex: none;
+    padding-right: 24px;
   }
   
-  .icon-area li i{
-    padding: 5px;
+  .icons ul li i{
     display: inline-block;
+    padding: 5px;
     transform: scale(1.2);
   }
   
-  .icon-area li i:hover {
+  .icons ul li i:hover {
     opacity: 1;
     cursor: pointer;
     transform: scale(1.5);
@@ -64,7 +71,7 @@
   }
   
   .menu {
-    width: 60%;
+    width: 90%;
     margin: 0 auto;
     text-align: center;
   }
@@ -75,7 +82,7 @@
   }
   
   footer {
-    height: 450px;
+    height: 350px;
     width: 100%;
     background-color: #f2f7b9d2;
   }
@@ -98,4 +105,25 @@
     transition: 0.2s;
   }
 
+  .insta:hover{
+    background: #d6249f;
+    background-clip: text;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+  }
+
+  .twitter:hover{
+    color: rgb(29, 161, 242);
+  }
+
+  .facebook:hover{
+    color: rgb(66, 103, 178);
+  }
+
+  .copyright{
+    bottom: 0;
+    padding-bottom: 8px;
+  }
+  
 }
