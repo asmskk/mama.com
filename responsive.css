@@ -6,6 +6,14 @@ body{
 .menu{
   width: 80%;
 }
+
+.icons ul li i:hover{
+  cursor: pointer;
+}
+
+.contents{
+  padding: 0 45px;
+}
 }
 
 @media screen and (min-width: 1000px){
@@ -20,16 +28,51 @@ body{
   }
   
   .header-container{
-    margin-left: 40px;
-    float: left;
+    width: 100%;
+    margin: 0 auto;
+    /* display: inline-block; */
   }
 
   .mama {
-    text-align: center;
     color: #fdfdfd;
     font-size: 50px;
     font-weight: 500;
     line-height: 80px;
+    margin-left: 55px;
+    float: left;
+  }
+  
+  .search-bar{
+    display: inline-block;
+    line-height: 80px;
+    margin-left: 100px;
+  }
+
+  .search-bar .search-input[type=text]{
+    width: 450px;
+    height: 40px;
+    position: relative;
+    padding: 15px 30px 15px 17px;
+    color: lightslategray;
+    font-size: 17px;
+    border: none;
+    border-radius: 50px;
+    outline: none;
+    transition: 0.5s ease;
+    background: #fff;
+  }
+
+  .fa-search{
+    position: relative;
+    left: -35px;
+    top: -2px;
+    font-size: 20px;
+    color: rgb(131, 136, 129);
+    cursor: pointer;
+  }
+
+  .fa-search:hover{
+    color: lightslategray;
   }
   
   .icons{
@@ -44,6 +87,9 @@ body{
     float: right;
   }
     
+  .mobile{
+    display: none;
+  }
 
   .icons ul li {
     transition: transform 0.4s;
@@ -60,9 +106,9 @@ body{
   .icons ul li i:hover {
     opacity: 1;
     cursor: pointer;
-    transform: scale(1.5);
+    transform: scale(1.4);
   }
-  
+
   .fa-user:hover{
     color: cornflowerblue;
   }
@@ -73,10 +119,6 @@ body{
   
   .fa-heart:hover{
     color: palevioletred;
-  }
-  
-  .fa-search:hover{
-    color: rgb(44, 42, 42);
   }
   
   .menu {
